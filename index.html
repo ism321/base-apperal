@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Simple Tailwind Starter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body class="font-serif pl-48 ">
+    <div class="flex">
+      
+   <div class="pt-14 pr-52">
+    
+    <img src="images/logo.svg" alt="">
+    <img src="images/hero-mobile.jpg" alt="" class="md:hidden mt-10">
+    
+      <h1 class="text-6xl text-desaturatedRed mt-32">W E ' R E</h1>
+      <h1 class="text-6xl text-black tracking-[15px] max-w-md">COOMING SOON</h1>
+      <p class="max-w-md text-desaturatedRed leading-relaxed mt-7">Hello fellow shoppers we' re currently building our new fashion store.Add your email below to stay up-to-date with annoucement and our launch deals.</p>
+    <div class="flex mt-14 ">
+      <input type="gamil" placeholder="email adderess" class=" p-3 border-2 rounded-full w-96 input" name="email">
+     
+      <div class=" w-24 rounded-full  justify-center items-center flex bg-softRed -ml-10 relative button">
+        
+        <img src="images/icon-arrow.svg" alt="" class="">
+      <img src="images/icon-error.svg" alt="" class="absolute right-32 hidden image">
+      </div>
+    </div>
+    <p class="text-red-600 ml-6 hidden error">please provide a valid email</p>
+    </div>
+    <img src="images/hero-desktop.jpg" alt="" class=" h-screen md:block hidden absolute right-0">
+   </div>
+   <script src="script.js"></script>
+  </body>
+</html>
